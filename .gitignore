@@ -1,2 +1,4 @@
 *.pyc
 *.html
+geckodriver.log
+a.jpg
