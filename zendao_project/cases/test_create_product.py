@@ -296,8 +296,7 @@ class product_document(Product):
             raise msg
 
     def test_09_create_product_document_webType(self):
-        '''创建网
-        页类型文档'''
+        '''创建网页类型文档'''
         if self._serach_product(self.name):
             self.click_action(self.locate["click_doc"])
             self.click_action(self.locate['cre_doc'])
